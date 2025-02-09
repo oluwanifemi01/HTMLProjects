@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Piano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+  <nav id="navbar">
+    <header>
+    <h1>JavaScript Technical Documentation</h1>
+    </header>
+    <ul>
+      <li>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Basics">Basics</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Syntax_and_Basics">Syntax and Basics</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Control_Structures">Control Structures</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Functions">Functions</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Objects_and_Arrays">Objects and Arrays</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#DOM_Manipulation">DOM Manipulation</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Events">Events</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Advanced_Topics">Advanced Topics</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Reference">Reference</a>
+      </li>
+    </ul>
+  </nav>
+    <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>
+        Introduction
+      </header>
+      <article>
+        <p>JavaScript is a versatile, high-level programming language that is one of the core technologies of the World Wide Web. It enables interactive web pages and is an essential part of web applications. Alongside HTML and CSS, JavaScript is a critical component in web development.</p>
+      </article>
+    </section>
+    <section class="main-section" id="Basics">
+      <header>
+        Basics
+      </header>
+      <article>
+        <h3>What is JavaScript?</h3>
+        <p>JavaScript is a lightweight, interpreted programming language with first-class functions. It is best known as the scripting language for Web pages, but it's used in many non-browser environments as well.</p>
+      </article>
+      <article>
+        <h3>History of JavaScript</h3>
+        <p>JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. Initially called Mocha, it was renamed to LiveScript and finally to JavaScript.</p>
+      </article>
+      <article>
+        <h3>Uses of JavaScript</h3>
+        <ul>
+          <li>Web Development</li>
+          <li>Server-Side Development</li>
+          <li>Game Development</li>
+          <li>Mobile App Development</li>
+        </ul>
+      </article>
+    </section>
+    <section class="main-section" id="Syntax_and_Basics">
+      <header>
+        Syntax and Basics
+      </header>
+      <article>
+        <h3>Variables</h3>
+        <p>Variables in JavaScript are containers for storing data values. Use var, let, or const to declare variables.</p>
+        <pre>
+          <code>
+            let name = 'John';
+            const age = 30;
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3>Data Types</h3>
+        <p>JavaScript data types include:</p>
+        <ul>
+          <li>String</li>
+          <li>Number</li>
+          <li>Boolean</li>
+          <li>Object</li>
+          <li>Undefined</li>
+          <li>Null</li>
+          <li>Symbol</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Operators</h3>
+        <p>JavaScript supports arithmetic, comparison, logical, assignment, and other operators.</p>
+        <pre>
+          <code>
+            let sum = 10 + 20; //Arithmetic
+            let isEqual = (10 === 20); //Comparison
+          </code>
+        </pre>
+      </article>
+    </section>
+    <section class="main-section" id="Control_Structures">
+      <header>
+        Control Structures
+      </header>
+      <article>
+        <h3>Conditionals</h3>
+        <p>Conditional statements control behavior based on different conditions.</p>
+        <pre>
+          <code>
+            if (age > 18) {
+              console.log('Adult');
+            } else {
+              console.log('Minor');
+            }
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3>Loops</h3>
+        <p>Loops execute a block of code as long as specified condition is true.</p>
+        <pre>
+          <code>
+            for (let i=0; i < 5; i++){
+              console.log(i);
+            }
+          </code>
+        </pre>
+      </article>
+    </section>
+    <section class="main-section" id="Functions">
+      <header>
+        Functions
+      </header>
+      <article>
+        <h3>Function Declaration</h3>
+        <p>Function declarations define a named fucntion.</p>
+        <pre>
+          <code>
+            function greet(name) {
+              return 'Hello, ${name}';
+            }
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3>Function Expressions</h3>
+        <p>Function expressions define a function as part of a larger expression.</p>
+        <pre>
+          <code>
+            const greet = function(name) {
+              return 'Hello, ${name}';
+            };
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3>Arrow Functions</h3>
+        <p>Arrow functions provide a shorter syntax for writing function expressions.</p>
+        <pre>
+          <code>
+            const greet = (name) => 'Hello, ${name}';
+          </code>
+        </pre>
+      </article>
+    </section>
+    <section class="main-section" id="Objects_and_Arrays">
+      <header>
+        Objects and Arrays
+      </header>
+      <article>
+        <h3>Objects</h3>
+        <p>Objects are collections of key-value pairs.</p>
+        <pre>
+          <code>
+            let person = {
+              name: 'John',
+              age: 30
+            };
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3>Arrays</h3>
+        <p>Arrays are ordered collections of items.</p>
+        <pre>
+          <code>
+            let colors = ['red', 'green', 'blue'];
+          </code>
+        </pre>
+      </article>
+    </section>
+    <section class="main-section" id="DOM_Manipulation">
+      <header>
+        DOM Manipulation
+      </header>
+      <article>
+        <h3>Selecting Elements</h3>
+        <p>You can select DOM elements using various methods like 'getElementById', 'querySelector', etc.</p>
+        <pre>
+          <code>
+            let element = document.getElementById('myElement');
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3>Modifying Elements</h3>
+        <p>You can modify elements by changing their properties or content.</p>
+        <pre>
+          <code>
+            element.textContent = 'Hello, World!';
+          </code>
+        </pre>
+      </article>
+    </section>
+    <section class="main-section" id="Events">
+      <header>
+        Events
+      </header>
+      <article>
+        <h3>Events Hnadling</h3>
+        <p>Events are actions that occur when a user interacts with a page.</p>
+        <pre>
+          <code>
+            element.onclick = function(){
+              alert('Element clicked!');
+            };
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3>Event Listeners</h3>
+        <p>Event listeners provide a way to handle events without directly assigning event handlers.</p>
+        <pre>
+          <code>
+            element.addEventListener('click', function() {
+              alert('Element clicked!');
+            });
+          </code>
+        </pre>
+      </article>
+    </section>
+    <section class="main-section" id="Advanced_Topics">
+      <header>
+        Advanced Topics
+      </header>
+      <article>
+        <h3>Asynchronous JavaScript</h3>
+        <p>Asynchronous JavaScript allows code to run without blocking the main thread.</p>
+      </article>
+      <article>
+        <h3>Promises</h3>
+        <p>Promises represent the eventual completion (or failure) of an asynchronous operation.</p>
+        <pre>
+          <code>
+            let promise = new Promise((resolve, reject) => {
+              //Asynchronous operation
+            });
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3>Async/Await</h3>
+        <p>Async/await provides a cleaner syntax for working with promises.</p>
+        <pre>
+          <code>
+            async function fetchData() {
+              let response = await fetch('url');
+              let data = await response.json();
+              return data;
+            }
+          </code>
+        </pre>
+      </article>
+    </section>
+    <section class="main-section" id="Reference">
+      <header>
+        Reference
+      </header>
+      <article>
+        <p>For more information, please visit <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Here</a></p>
+      </article>
+    </section>
+    </main>
+  </body>
+  </html>
