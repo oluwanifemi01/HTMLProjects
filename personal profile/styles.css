@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: #333;
+    padding-right: 20px;
+    z-index: 1000;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  #navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #welcome-section {
+    background: #0066cc;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 150px; /* Adjusted for fixed navbar */
+  }
+  
+  #welcome-section h1 {
+    font-size: 3rem; /* Larger text */
+    margin-bottom: 20px;
+  }
+  
+  #welcome-section p {
+    font-size: 1.5rem; /* Larger text */
+  }
+  
+  #projects {
+    padding: 50px 20px;
+    text-align: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Increased space between items */
+  }
+  
+  .project-tile {
+    flex: 1 1 calc(50% - 40px); /* Increased space between items */
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .project-tile:hover {
+    background-image: url('hover-background.jpg'); /* Background image on hover */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .project-title {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    background-image: url('default-background.jpg'); /* Default background image */
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .project-title::before {
+    content: "->";
+    position: absolute;
+    left: -50px;
+    visibility: hidden;
+    transition: visibility 0.3s ease, left 0.3s ease;
+  }
+  
+  .project-tile:hover .project-title::before {
+    visibility: visible;
+    left: -15px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .see-all-link {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 18px;
+  }
+  
+  .see-all-link:hover {
+    background-color: #004080;
+  }
+  
+  .contact-section {
+    background: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .contact-section-header {
+    margin-bottom: 30px;
+  }
+  
+  .contact-section-header h2 {
+    font-size: 2.5rem; /* Larger text */
+    margin-bottom: 20px;
+  }
+  
+  .contact-section-header p {
+    font-size: 1.5rem; /* Larger text */
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .profile-link {
+    margin: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0066cc;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .profile-link:hover {
+    background-color: #004080;
+  }
+  
+  i {
+    margin-right: 10px;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    #navbar ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    #navbar {
+      padding-right: 10px;
+    }
+  
+    .project-tile {
+      flex: 1 1 100%; /* Stack tiles on smaller screens */
+      max-width: 100%;
+    }
+    
+    #welcome-section h1 {
+      font-size: 2rem; /* Adjusted for smaller screens */
+    }
+  
+    #welcome-section p,
+    .contact-section-header p {
+      font-size: 1.2rem; /* Adjusted for smaller screens */
+    }
+    
+    .contact-section-header h2 {
+      font-size: 2rem; /* Adjusted for smaller screens */
+    }
+  }
+  
