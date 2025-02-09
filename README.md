@@ -1,21 +1,12 @@
-# Personal Portfolio
+# HTML Projects
 
-Welcome to my personal portfolio website. This repository contains the source code for my portfolio, showcasing my projects and providing a way to contact me.
+This is a group of HTML projects I created, which have significantly helped me in developing my programming skills and gaining practical experience in web development.
 
-## Table of Contents
-
-- [About](#about)
-- [Projects](#projects)
-- [Contact](#contact)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## About
+## Personal Portfolio
 
 This is my personal portfolio website where you can learn more about me, see some of the projects I've worked on, and get in touch with me.
 
-## Projects
+### Projects
 
 Here are some of the projects featured on my portfolio:
 
@@ -26,7 +17,7 @@ Here are some of the projects featured on my portfolio:
 
 You can find all my projects [here](https://codepen.io/your-work).
 
-## Contact
+### Contact
 
 Feel free to reach out to me through the following platforms:
 
@@ -36,9 +27,27 @@ Feel free to reach out to me through the following platforms:
 - **[Email](mailto:o_oloyede@outlook.com)**
 - **[Phone](tel:515-357-8038)**
 
+## JavaScript Technical Documentation
+
+This documentation covers essential JavaScript topics, including syntax, control structures, functions, and advanced concepts.
+
+### Topics Covered
+
+- Introduction to JavaScript
+- Basics: What is JavaScript, History, Uses
+- Syntax and Basics: Variables, Data Types, Operators
+- Control Structures: Conditionals, Loops
+- Functions: Declarations, Expressions, Arrow Functions
+- Objects and Arrays
+- DOM Manipulation: Selecting and Modifying Elements
+- Events: Handling and Listeners
+- Advanced Topics: Asynchronous JavaScript, Promises, Async/Await
+
+For more detailed information, visit the [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+
 ## Usage
 
-To view this project locally:
+To view these projects locally:
 
 1. Clone the repository:
     ```sh
