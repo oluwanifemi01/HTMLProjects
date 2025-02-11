@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Please fill out the form below:</p>
+
+<form id="survey-form">
+    <div>
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <div>
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div>
+        <label id="number-label" for="number">Age:</label>
+        <input type="number" id="number" name="age" min="18" max="99" placeholder="Enter your age" required>
+    </div>
+    <div>
+        <label for="dropdown">Role:</label>
+        <select id="dropdown" name="role" required>
+            <option value="">Select your role</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <div>
+        <p>How did you hear about us?</p>
+        <div>
+            <label>
+                <input type="radio" name="referrer" value="internet" required> Internet
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="radio" name="referrer" value="friend" required> Friend
+            </label>
+        </div>
+    </div>
+    <div>
+        <p>Select your interests:</p>
+        <div>
+            <label>
+                <input type="checkbox" name="interests" value="coding"> Coding
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" name="interests" value="music"> Music
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" name="interests" value="sports"> Sports
+            </label>
+        </div>
+    </div>
+    <div>
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+    </div>
+    <div>
+        <button type="submit" id="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>
