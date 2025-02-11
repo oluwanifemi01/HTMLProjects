@@ -1,0 +1,83 @@
+*{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  #main{
+    padding: 20px;
+  }
+  
+  #image{
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+  }
+  
+  #img-div{
+    margin: 20px 0;
+  }
+  
+  #title{
+    text-align: center;
+    font-family: "Lucida Handwriting", sans-serif;
+  }
+  
+  #img-caption{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #tribute-info{
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #tribute-link{
+    display: block;
+    margin-top: 20px;
+    color: red;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover{
+    text-decoration: underline;
+  }
+  
+  ul{
+    padding: 0;
+  }
+  
+  li{
+    margin-bottom: 10px;
+  }
+  
+  #ravens-logo{
+    max-width: 200px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  #tribute-info h2{
+    text-align: center;
+  }
+  
+  body{
+    background-color: #777;
+    color: white;
+  }
+  
